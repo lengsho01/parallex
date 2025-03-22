@@ -1,0 +1,32 @@
+.main-bottom{
+    background-color: burlywood;
+    height: 500px;
+    display: flex;
+    border-top: 4px solid;
+    border-color: azure;
+    align-items: center;
+    justify-content: center;
+}
+.main-bottom >.bt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.main-bottom >.bt-container >.inner-box{
+    padding: 10px;
+    margin: 42px; 
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s
+
+}
+.main-bottom >.bt-container >.inner-box:hover{
+    border-bottom: 5px solid #111;
+}
+ .main-bottom >.bt-container img{
+    width: 3em;
+    text-align: center;
+}
